@@ -115,7 +115,57 @@ function calculateRombus(){
 
     const romSpan = document.getElementById('rom-area');
     romSpan.innerText = RomArea;
-    
-    
+ 
+}
+
+
+function calculatePentagon(){
+
+    const penPinput = document.getElementById('penP');
+    const penPvalue = penPinput.value;
+    const p = parseFloat(penPvalue)
+    console.log(p);
+
+    const penBinput = document.getElementById('penB');
+    const penBvalue = penBinput.value;
+    const b = parseFloat(penBvalue);
+    console.log(b);
+
+    // area calculation of pentagon
+
+    const pentagonArea = 0.5 * p * b;
+    console.log("Area of Pentagon is :", pentagonArea);
+
+
+    // displaying area
+
+    const pentaSpan = document.getElementById('pentagon-area');
+    pentaSpan.innerText = pentagonArea;
+
+}
+
+
+function calculateEllips(){
+
+    const ellAinput = document.getElementById('Ell-A');
+    const ellAvalue = ellAinput.value;
+    const A = parseFloat(ellAvalue);
+    console.log(A);
+
+    const ellBinput = document.getElementById('Ell-B');
+    const ellBvalue = ellBinput.value;
+    const B = parseFloat(ellBvalue);
+    console.log(B);
+
+
+    // area calculation of ellips
+
+    const EllipsArea = 3.1416 * A * B;
+    console.log(EllipsArea);
+
+    // display area
+
+    const ellipsSpan = document.getElementById('Ellips-area');
+    ellipsSpan.innerText = EllipsArea;
 
 }
