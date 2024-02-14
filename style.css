@@ -1,0 +1,53 @@
+#ellips_id:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+#ellips_id{
+    transition: 0.5s;
+}
+
+
+#penta_id{
+    transition: 0.5s;
+}
+#penta_id:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+
+
+#rom_id{
+    transition: 0.5s;
+}
+#rom_id:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+#para_id{
+    transition: 0.5s;
+}
+#para_id:hover{
+    cursor: pointer ;
+    background-color: crimson;
+}
+
+#rec_id{
+    transition: 0.5s;
+}
+
+#rec_id:hover{
+    cursor: pointer;
+    background-color: rgb(77, 46, 46);
+}
+
+
+#tri_id{
+    transition: 0.5s;
+}
+
+#tri_id:hover{
+    cursor: pointer;
+    background-color: rgb(158, 157, 101);
+}
